@@ -19,4 +19,12 @@ class WebViewActivity : AppCompatActivity() {
             it.setSupportZoom(true)
         }
     }
+
+
+  /*  override fun onBackPressed() {
+        if (binding.webView.canGoBack())
+            binding.webView.goBack()
+        else
+        super.onBackPressed()
+    }*/
 }
